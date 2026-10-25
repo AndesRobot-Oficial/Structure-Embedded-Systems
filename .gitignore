@@ -1,0 +1,39 @@
+# ---------- CAD ----------
+# SolidWorks
+~$*
+*.SLDPRT.bak
+*.SLDASM.bak
+*.swp~
+# Fusion 360 / Inventor / FreeCAD
+*.f3d.bak
+*.ipt.bak
+*.FCStd1
+*.FCBak
+OldVersions/
+lockfile.lck
+
+# ---------- KiCad ----------
+*-backups/
+*.kicad_prl
+fp-info-cache
+_autosave-*
+*.bak
+*.lck
+\#auto_saved_files\#
+
+# ---------- ROS 2 / colcon ----------
+build/
+install/
+log/
+
+# ---------- Python ----------
+__pycache__/
+*.pyc
+
+# ---------- Sistema / editores ----------
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.tmp

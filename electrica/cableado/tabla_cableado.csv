@@ -1,0 +1,2 @@
+id,desde,conector_desde,hacia,conector_hacia,senal,color,calibre_awg,largo_mm,notas
+C01,Batería,XT60,Fusible principal,Terminal,V_BAT+,Rojo,12,,

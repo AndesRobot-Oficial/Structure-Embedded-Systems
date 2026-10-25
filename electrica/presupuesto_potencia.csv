@@ -1,0 +1,7 @@
+componente,cantidad,voltaje_v,corriente_tipica_a,corriente_max_a,potencia_tipica_w,riel,notas
+Motor de tracción,,,,,,V_BAT,
+Driver de motores,,,,,,V_BAT,
+Computador principal,,,,,,,
+LiDAR,,,,,,,
+Cámara,,,,,,,
+Brazo (entregado al equipo del brazo),1,,,,,,Ver interfaz_brazo
