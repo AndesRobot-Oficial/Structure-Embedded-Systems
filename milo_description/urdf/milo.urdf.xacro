@@ -17,7 +17,7 @@
   <xacro:property name="base_mass"     value="20.0"/>
   <xacro:property name="base_z"        value="0.05"/>   <!-- altura del fondo del chasis sobre el suelo -->
 
-  <xacro:property name="wheel_radius"  value="0.08"/>
+  <xacro:property name="wheel_radius"  value="0.0826"/> <!-- rueda de hoverboard 6.5" (dato real) -->
   <xacro:property name="wheel_width"   value="0.04"/>
   <xacro:property name="wheel_mass"    value="1.0"/>
   <xacro:property name="wheel_y"       value="0.25"/>   <!-- distancia del centro a cada rueda -->

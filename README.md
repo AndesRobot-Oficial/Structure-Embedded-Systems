@@ -13,19 +13,19 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 |---|---|
 | Dimensiones (L × A × H) | _por definir_ |
 | Peso | _por definir_ |
-| Tipo de tracción | _por definir_ |
+| Tipo de tracción | Diferencial, 2 motores BLDC de hoverboard 6,5" (control FOC) |
 | Velocidad máxima | _por definir_ |
-| Batería | _por definir_ |
-| Autonomía estimada | _por definir_ (ver [presupuesto de potencia](electrica/presupuesto_potencia.csv)) |
-| Computador principal | _por definir_ |
-| Sensores | _por definir_ |
+| Batería | 2× Li-ion 10S2P 36 V · 4,4 Ah · 158 Wh (316 Wh en total) |
+| Autonomía estimada | ~1,4 h, estimación preliminar (ver [presupuesto de potencia](electrica/presupuesto_potencia.csv)) |
+| Computador principal | NVIDIA Jetson Orin Nano Dev Kit + Arduino Mega 2560 |
+| Sensores | RPLIDAR C1, Orbbec Gemini Plus, IMU HFI-B9, IMU MPU-9250, Hiwonder WonderMV |
 
 ## Estado actual
 
 | Área | Estado |
 |---|---|
 | Diseño 3D | 🔲 Pendiente |
-| Plano eléctrico | 🔲 Pendiente |
+| Plano eléctrico | 🟡 Rev. 1.0 en revisión ([pendientes](electrica/revision_plano.md)) |
 | URDF | 🟡 Plantilla inicial (medidas provisorias) |
 | BOM | 🔲 Pendiente |
 | Fabricación | 🔲 Pendiente |
@@ -46,7 +46,9 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 │   ├── esquematicos/ # Esquemático fuente + PDF
 │   ├── cableado/     # Diagrama y tabla de cableado
 │   ├── pcb/          # Diseños de PCB y Gerbers
-│   └── presupuesto_potencia.csv
+│   ├── herramientas/ # Script que genera la tabla de cableado
+│   ├── presupuesto_potencia.csv
+│   └── revision_plano.md
 ├── milo_description/ # Paquete ROS 2 con el URDF/xacro
 ├── interfaz_brazo/   # Acuerdo de interfaz con el equipo del brazo
 ├── bom/              # Lista de materiales
