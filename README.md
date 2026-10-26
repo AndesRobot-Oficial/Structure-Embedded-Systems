@@ -3,7 +3,7 @@
 Repositorio del equipo de **base** de [AndesRobot](https://github.com/AndesRobot-Oficial) para el robot **MILO** (RoboCup@Home 2027).
 Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF para ROS 2.
 
-> El **brazo** lo desarrolla otro equipo y no está en este repositorio. Lo que compartimos con ellos está definido en [`interfaz_brazo/`](interfaz_brazo/README.md).
+
 
 <!-- Agregar foto o render de MILO aquí: ![MILO](docs/fotos/milo.jpg) -->
 
