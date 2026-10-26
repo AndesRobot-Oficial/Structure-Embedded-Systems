@@ -1,7 +1,7 @@
 # MILO — Estructura y Sistemas Embebidos
 
 Repositorio del equipo de **base** de [AndesRobot](https://github.com/AndesRobot-Oficial) para el robot **MILO** (RoboCup@Home 2027).
-Contiene el sistema eléctrico de la base, el modelo URDF para ROS 2 y los cálculos de diseño.
+Contiene el modelo CAD, el sistema eléctrico de la base, el modelo URDF para ROS 2 y los cálculos de diseño.
 
 ## Especificaciones
 
@@ -23,7 +23,7 @@ Contiene el sistema eléctrico de la base, el modelo URDF para ROS 2 y los cálc
 
 | Área | Estado |
 |---|---|
-| Diseño 3D | ✅ Listo |
+| Diseño 3D | ✅ Listo ([modelo CAD](cad/README.md)) |
 | Plano eléctrico | 🟡 Rev. 2.0 lista, pendientes las medidas de seguridad ([revisión](electrica/revision_plano.md)) |
 | URDF | 🟡 Modelo del CAD con masas estimadas |
 | BOM | 🟡 Componentes eléctricos listos; falta perfilería y tornillería |
@@ -35,6 +35,7 @@ Contiene el sistema eléctrico de la base, el modelo URDF para ROS 2 y los cálc
 
 ```
 .
+├── cad/              # Modelo 3D completo (Fusion 360 + STEP)
 ├── electrica/
 │   ├── esquematicos/ # Plano eléctrico (mapa de conexiones de ReWire)
 │   ├── cableado/     # Lista de cableado
