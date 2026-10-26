@@ -9,11 +9,10 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 
 | Parámetro | Valor |
 |---|---|
-| Dimensiones (L × A × H) | 50 × 50 × 175 cm (provisorio; el brazo no cambia estas medidas) |
+| Dimensiones (L × A × H) | 50 × 50 × 175 cm (provisorio) |
 | Peso | _por definir_ |
 | Tipo de tracción | Diferencial, 2 motores BLDC de hoverboard 6,5" (control FOC) |
 | Velocidad máxima | 6 km/h |
-| Carga en la punta del brazo | 2 kg teóricos a máxima extensión (sin comprobar) |
 | Batería | 2× Li-ion 10S2P 36 V · 4,4 Ah · 158 Wh (316 Wh en total) |
 | Autonomía estimada | ~1,4 h, estimación preliminar (ver [presupuesto de potencia](electrica/presupuesto_potencia.csv)) |
 | Computador principal | NVIDIA Jetson Orin Nano Dev Kit + Arduino Mega 2560 |
@@ -34,14 +33,6 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 
 🔲 Pendiente · 🟡 En progreso · ✅ Listo
 
-## Brazo
-
-<!-- Pendiente: información del brazo, se agrega cuando su repositorio tenga main. -->
-
-_Por completar._
-
-La interfaz entre la base y el brazo está en [`interfaz_brazo/`](interfaz_brazo/README.md).
-
 ## Estructura del repositorio
 
 ```
@@ -60,7 +51,6 @@ La interfaz entre la base y el brazo está en [`interfaz_brazo/`](interfaz_brazo
 │   ├── presupuesto_potencia.csv
 │   └── revision_plano.md
 ├── milo_description/ # Paquete ROS 2 con el URDF/xacro
-├── interfaz_brazo/   # Acuerdo de interfaz con el equipo del brazo
 ├── bom/              # Lista de materiales
 └── docs/
     ├── calculos/     # Torque, carga, centro de masa, FEA
@@ -83,14 +73,6 @@ colcon build --packages-select milo_description
 source install/setup.bash
 ros2 launch milo_description display.launch.py
 ```
-
-## Cómo contribuir
-
-1. No subas cambios directo a `main`: crea una rama nueva al subir los archivos.
-2. Sube el archivo fuente **y** su exportación (por ejemplo, el `.f3d` de Fusion 360 y su `.step`).
-3. Si cambias algo que afecta al brazo, actualiza [`interfaz_brazo/`](interfaz_brazo/README.md).
-4. Anota los cambios importantes en [`CHANGELOG.md`](CHANGELOG.md) y las decisiones en [`docs/decisiones.md`](docs/decisiones.md).
-5. Abre un Pull Request hacia `main`.
 
 ## Contacto
 

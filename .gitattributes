@@ -1,0 +1,6 @@
+# Texto: finales de línea normalizados
+*.csv text eol=lf
+*.md text eol=lf
+*.xacro text eol=lf
+*.urdf text eol=lf
+*.py text eol=lf

@@ -1,0 +1,138 @@
+id,desde,pin_desde,hacia,pin_hacia,senal,color,calibre,largo_mm,notas
+C001,Batería 2,−,Conversor 42 V → 24 V,IN −,GND bat,Negro,12 AWG,,w_bat_conv_n
+C002,Batería 1,+ (36 V),Conversor 42 V → 24 V,IN + (36 V),+36V,Rojo,12 AWG,,w_bat_conv_p
+C003,Conversor 42 V → 24 V,OUT −,Conversor 24 V → 12 V,IN −,OUT − → IN −,Negro,16 AWG,,w_c12_n
+C004,Conversor 42 V → 24 V,OUT + 24V (24 V),Conversor 24 V → 12 V,IN + (24 V),OUT + 24V → IN +,Rojo,16 AWG,,w_c12_p
+C005,Conversor 42 V → 24 V,OUT −,Conversor 24 V → 6.6 V,IN −,OUT − → IN −,Negro,16 AWG,,w_c74_n
+C006,Conversor 42 V → 24 V,OUT + 24V (24 V),Conversor 24 V → 6.6 V,IN + (24 V),OUT + 24V → IN +,Rojo,16 AWG,,w_c74_p
+C007,Arduino Mega 2560,DIR1 (D22),TB6600 #1,DIR+,DIR1,Verde,24 AWG,,w_dir1
+C008,Arduino Mega 2560,DIR2 (D23),TB6600 #2,DIR+,DIR2,Verde,24 AWG,,w_dir2
+C009,Arduino Mega 2560,DIR3 (D24),TB6600 #3,DIR+,DIR3,Verde,24 AWG,,w_dir3
+C010,Arduino Mega 2560,DIR4 (D25),TB6600 #4,DIR+,DIR4,Verde,24 AWG,,w_dir4
+C011,Arduino Mega 2560,DIR5 (D26),TB6600 #5,DIR+,DIR5,Verde,24 AWG,,w_dir5
+C012,Arduino Mega 2560,DIR6 (D27),TB6600 #6,DIR+,DIR6,Verde,24 AWG,,w_dir6
+C013,Arduino Mega 2560,DIR7 (D28),TB6600 #7,DIR+,DIR7,Verde,24 AWG,,w_dir7
+C014,Hub DisplayPort MST,HDMI 1,Monitor MUCAI N116A,HDMI IN,HDMI,Gris,Cable de vídeo,,w_disp_mon
+C015,Jetson Orin Nano,DisplayPort,Hub DisplayPort MST,DP IN,DisplayPort,Gris,Cable de vídeo,,w_dp_mst
+C016,Arduino Mega 2560,EN1 (D30),TB6600 #1,ENA+,EN1,Naranjo,24 AWG,,w_ena1
+C017,Arduino Mega 2560,EN2 (D31),TB6600 #2,ENA+,EN2,Naranjo,24 AWG,,w_ena2
+C018,Arduino Mega 2560,EN3 (D32),TB6600 #3,ENA+,EN3,Naranjo,24 AWG,,w_ena3
+C019,Arduino Mega 2560,EN4 (D33),TB6600 #4,ENA+,EN4,Naranjo,24 AWG,,w_ena4
+C020,Arduino Mega 2560,EN5 (D34),TB6600 #5,ENA+,EN5,Naranjo,24 AWG,,w_ena5
+C021,Arduino Mega 2560,EN6 (D35),TB6600 #6,ENA+,EN6,Naranjo,24 AWG,,w_ena6
+C022,Arduino Mega 2560,EN7 (D36),TB6600 #7,ENA+,EN7,Naranjo,24 AWG,,w_ena7
+C023,Pulsador hoverboard,BOTÓN,Placa hoverboard,BOTÓN ON,BOTÓN ON → BOTÓN,Gris,24 AWG,,w_hb_btn
+C024,Conversor 24 V → 12 V,OUT −,Hub USB 3.0 alimentado,GND −,OUT − → GND −,Negro,18 AWG,,w_hub_n
+C025,Conversor 24 V → 12 V,OUT + 12V (12 V),Hub USB 3.0 alimentado,DC IN + (12 V),OUT + 12V → DC IN +,Rojo,18 AWG,,w_hub_p
+C026,Conversor 24 V → 12 V,OUT −,Jetson Orin Nano,GND −,OUT − → GND −,Negro,18 AWG,,w_jet_n
+C027,Conversor 24 V → 12 V,OUT + 12V (12 V),Jetson Orin Nano,DC IN + (12 V),+12V,Rojo,18 AWG,,w_jet_p
+C028,Hub USB 3.0 alimentado,Puerto 1,Monitor MUCAI N116A,USB-C 5V (5 V),USB 5V,Azul,Cable USB,,w_mon_usb
+C029,Arduino Mega 2560,GND,IMU MPU-9250,GND,GND → GND,Negro,18 AWG,,w_mpu_g
+C030,Arduino Mega 2560,SCL (D21),IMU MPU-9250,SCL,SCL,Amarillo,24 AWG,,w_mpu_scl
+C031,Arduino Mega 2560,SDA (D20),IMU MPU-9250,SDA,SDA,Azul,24 AWG,,w_mpu_sda
+C032,Arduino Mega 2560,5V (5 V),IMU MPU-9250,VCC (5 V),VCC → 5V,Rojo,18 AWG,,w_mpu_v
+C033,Hub USB 3.0 alimentado,Puerto 2,Hub DisplayPort MST,USB 5V (5 V),USB 5V,Azul,Cable USB,,w_mst_usb
+C034,Hub DisplayPort MST,HDMI 2,Victron GX Touch 50,HDMI IN,HDMI,Gris,Cable de vídeo,,w_mst_vic
+C035,Hub USB 3.0 alimentado,Puerto 6,Hiwonder WonderMV,USB Type-C,USB,Azul,Cable USB,,w_mv_usb
+C036,Conversor 42 V → 24 V,OUT −,TB6600 #1,GND −,GND,Negro,16 AWG,,w_pwr_tb1_n
+C037,Conversor 42 V → 24 V,OUT + 24V (24 V),TB6600 #1,VCC + (24 V),+24V,Rojo,16 AWG,,w_pwr_tb1_p
+C038,Conversor 42 V → 24 V,OUT −,TB6600 #2,GND −,OUT − → GND −,Negro,16 AWG,,w_pwr_tb2_n
+C039,Conversor 42 V → 24 V,OUT + 24V (24 V),TB6600 #2,VCC + (24 V),OUT + 24V → VCC +,Rojo,16 AWG,,w_pwr_tb2_p
+C040,Conversor 42 V → 24 V,OUT −,TB6600 #3,GND −,OUT − → GND −,Negro,16 AWG,,w_pwr_tb3_n
+C041,Conversor 42 V → 24 V,OUT + 24V (24 V),TB6600 #3,VCC + (24 V),OUT + 24V → VCC +,Rojo,16 AWG,,w_pwr_tb3_p
+C042,Conversor 42 V → 24 V,OUT −,TB6600 #4,GND −,OUT − → GND −,Negro,16 AWG,,w_pwr_tb4_n
+C043,Conversor 42 V → 24 V,OUT + 24V (24 V),TB6600 #4,VCC + (24 V),OUT + 24V → VCC +,Rojo,16 AWG,,w_pwr_tb4_p
+C044,Conversor 42 V → 24 V,OUT −,TB6600 #5,GND −,OUT − → GND −,Negro,16 AWG,,w_pwr_tb5_n
+C045,Conversor 42 V → 24 V,OUT + 24V (24 V),TB6600 #5,VCC + (24 V),OUT + 24V → VCC +,Rojo,16 AWG,,w_pwr_tb5_p
+C046,Conversor 42 V → 24 V,OUT −,TB6600 #6,GND −,OUT − → GND −,Negro,16 AWG,,w_pwr_tb6_n
+C047,Conversor 42 V → 24 V,OUT + 24V (24 V),TB6600 #6,VCC + (24 V),OUT + 24V → VCC +,Rojo,16 AWG,,w_pwr_tb6_p
+C048,Conversor 42 V → 24 V,OUT −,TB6600 #7,GND −,OUT − → GND −,Negro,16 AWG,,w_pwr_tb7_n
+C049,Conversor 42 V → 24 V,OUT + 24V (24 V),TB6600 #7,VCC + (24 V),OUT + 24V → VCC +,Rojo,16 AWG,,w_pwr_tb7_p
+C050,Arduino Mega 2560,GND (señales motores),TB6600 #1,PUL−,GND señal,Negro,24 AWG,,w_sig_gnd
+C051,Conversor 24 V → 6.6 V,OUT −,Servo Power HD LF-20MG,GND (marrón),GND (marrón) → OUT −,Negro,18 AWG,,w_srv_n
+C052,Conversor 24 V → 6.6 V,OUT + 6.6V (6.6 V),Servo Power HD LF-20MG,V+ (rojo) (6.6 V),+6.6V,Rojo,18 AWG,,w_srv_p
+C053,Arduino Mega 2560,GND,Servo Power HD LF-20MG,GND (marrón),GND ref,Negro,18 AWG,,w_srv_ref
+C054,Arduino Mega 2560,SERVO (D9),Servo Power HD LF-20MG,SEÑAL (naranja),SERVO,Naranjo,24 AWG,,w_srv_sig
+C055,Arduino Mega 2560,STEP1 (D2),TB6600 #1,PUL+,STEP1,Amarillo,24 AWG,,w_step1
+C056,Arduino Mega 2560,STEP2 (D3),TB6600 #2,PUL+,STEP2,Amarillo,24 AWG,,w_step2
+C057,Arduino Mega 2560,STEP3 (D4),TB6600 #3,PUL+,STEP3,Amarillo,24 AWG,,w_step3
+C058,Arduino Mega 2560,STEP4 (D5),TB6600 #4,PUL+,STEP4,Amarillo,24 AWG,,w_step4
+C059,Arduino Mega 2560,STEP5 (D6),TB6600 #5,PUL+,STEP5,Amarillo,24 AWG,,w_step5
+C060,Arduino Mega 2560,STEP6 (D7),TB6600 #6,PUL+,STEP6,Amarillo,24 AWG,,w_step6
+C061,Arduino Mega 2560,STEP7 (D8),TB6600 #7,PUL+,STEP7,Amarillo,24 AWG,,w_step7
+C062,TB6600 #1,A−,NEMA 23 1.26 N·m #1,A−,A− → A−,Verde,18 AWG,,w_tb1_an
+C063,TB6600 #1,A+,NEMA 23 1.26 N·m #1,A+,A+ → A+,Negro,18 AWG,,w_tb1_ap
+C064,TB6600 #1,B−,NEMA 23 1.26 N·m #1,B−,B− → B−,Azul,18 AWG,,w_tb1_bn
+C065,TB6600 #1,B+,NEMA 23 1.26 N·m #1,B+,B+ → B+,Rojo,18 AWG,,w_tb1_bp
+C066,TB6600 #2,A−,NEMA 23 1.26 N·m #2,A−,A− → A−,Verde,18 AWG,,w_tb2_an
+C067,TB6600 #2,A+,NEMA 23 1.26 N·m #2,A+,A+ → A+,Negro,18 AWG,,w_tb2_ap
+C068,TB6600 #2,B−,NEMA 23 1.26 N·m #2,B−,B− → B−,Azul,18 AWG,,w_tb2_bn
+C069,TB6600 #2,B+,NEMA 23 1.26 N·m #2,B+,B+ → B+,Rojo,18 AWG,,w_tb2_bp
+C070,TB6600 #3,A−,NEMA 23 1.26 N·m #3,A−,A− → A−,Verde,18 AWG,,w_tb3_an
+C071,TB6600 #3,A+,NEMA 23 1.26 N·m #3,A+,A+ → A+,Negro,18 AWG,,w_tb3_ap
+C072,TB6600 #3,B−,NEMA 23 1.26 N·m #3,B−,B− → B−,Azul,18 AWG,,w_tb3_bn
+C073,TB6600 #3,B+,NEMA 23 1.26 N·m #3,B+,B+ → B+,Rojo,18 AWG,,w_tb3_bp
+C074,TB6600 #4,A−,NEMA 23 2.9 N·m,A−,A− → A−,Verde,18 AWG,,w_tb4_an
+C075,TB6600 #4,A+,NEMA 23 2.9 N·m,A+,A+ → A+,Negro,18 AWG,,w_tb4_ap
+C076,TB6600 #4,B−,NEMA 23 2.9 N·m,B−,B− → B−,Azul,18 AWG,,w_tb4_bn
+C077,TB6600 #4,B+,NEMA 23 2.9 N·m,B+,B+ → B+,Rojo,18 AWG,,w_tb4_bp
+C078,TB6600 #5,A−,NEMA 17 #1,A−,A− → A−,Verde,18 AWG,,w_tb5_an
+C079,TB6600 #5,A+,NEMA 17 #1,A+,A+ → A+,Negro,18 AWG,,w_tb5_ap
+C080,TB6600 #5,B−,NEMA 17 #1,B−,B− → B−,Azul,18 AWG,,w_tb5_bn
+C081,TB6600 #5,B+,NEMA 17 #1,B+,B+ → B+,Rojo,18 AWG,,w_tb5_bp
+C082,TB6600 #6,A−,NEMA 17 #2,A−,A− → A−,Verde,18 AWG,,w_tb6_an
+C083,TB6600 #6,A+,NEMA 17 #2,A+,A+ → A+,Negro,18 AWG,,w_tb6_ap
+C084,TB6600 #6,B−,NEMA 17 #2,B−,B− → B−,Azul,18 AWG,,w_tb6_bn
+C085,TB6600 #6,B+,NEMA 17 #2,B+,B+ → B+,Rojo,18 AWG,,w_tb6_bp
+C086,TB6600 #7,A−,NEMA 17 #3,A−,A− → A−,Verde,18 AWG,,w_tb7_an
+C087,TB6600 #7,A+,NEMA 17 #3,A+,A+ → A+,Negro,18 AWG,,w_tb7_ap
+C088,TB6600 #7,B−,NEMA 17 #3,B−,B− → B−,Azul,18 AWG,,w_tb7_bn
+C089,TB6600 #7,B+,NEMA 17 #3,B+,B+ → B+,Rojo,18 AWG,,w_tb7_bp
+C090,Placa hoverboard,UART GND,USB a TTL,GND,GND,Negro,18 AWG,,w_ttl_g
+C091,Placa hoverboard,UART TX,USB a TTL,RXD,TX→RX,Verde,24 AWG,,w_ttl_rx
+C092,Placa hoverboard,UART RX,USB a TTL,TXD,TX→RX,Amarillo,24 AWG,,w_ttl_tx
+C093,Jetson Orin Nano,USB-A 2,Orbbec Gemini Plus,USB-C 3.0,USB 3.0,Azul,Cable USB,,w_usb_gemini
+C094,Jetson Orin Nano,USB-A 1,Hub USB 3.0 alimentado,USB entrada (a Jetson),USB 3.0,Azul,Cable USB,,w_usb_hub
+C095,Hub USB 3.0 alimentado,Puerto 3,IMU HFI-B9,USB,USB,Azul,Cable USB,,w_usb_imu
+C096,Hub USB 3.0 alimentado,Puerto 5,RPLIDAR C1,USB (adaptador),USB,Azul,Cable USB,,w_usb_lidar
+C097,Jetson Orin Nano,USB-A 3,Arduino Mega 2560,USB-B,USB,Azul,Cable USB,,w_usb_mega
+C098,USB a TTL,USB,Hub USB 3.0 alimentado,Puerto 7,USB,Azul,Cable USB,,w_usb_ttl
+C099,Hub USB 3.0 alimentado,Puerto 4,Victron GX Touch 50,USB (táctil + 5V),USB,Azul,Cable USB,,w_vic_usb
+C100,Placa hoverboard,MOTOR IZQ A,Rueda izquierda,FASE A,MOTOR IZQ A → FASE A,Amarillo,14 AWG,,w_whl_a
+C101,Placa hoverboard,MOTOR IZQ B,Rueda izquierda,FASE B,MOTOR IZQ B → FASE B,Azul,14 AWG,,w_whl_b
+C102,Placa hoverboard,MOTOR IZQ C,Rueda izquierda,FASE C,MOTOR IZQ C → FASE C,Verde,14 AWG,,w_whl_c
+C103,Placa hoverboard,HALL IZQ,Rueda izquierda,HALL (5 hilos),Hall,Gris,24 AWG,,w_whl_h
+C104,Placa hoverboard,MOTOR DER A,Rueda derecha,FASE A,MOTOR DER A → FASE A,Amarillo,14 AWG,,w_whr_a
+C105,Placa hoverboard,MOTOR DER B,Rueda derecha,FASE B,MOTOR DER B → FASE B,Azul,14 AWG,,w_whr_b
+C106,Placa hoverboard,MOTOR DER C,Rueda derecha,FASE C,MOTOR DER C → FASE C,Verde,14 AWG,,w_whr_c
+C107,Placa hoverboard,HALL DER,Rueda derecha,HALL (5 hilos),Hall,Gris,24 AWG,,w_whr_h
+C108,Batería 2,+ (36 V),Conversor 42 V → 24 V,IN + (36 V),Señal,Rojo,24 AWG,,w1792893666820
+C109,Batería 1,−,Conversor 42 V → 24 V,IN −,Señal,Negro,24 AWG,,w1792893677780
+C110,Batería 1,+ (36 V),Placa hoverboard,BAT + (36 V),Señal,Rojo,24 AWG,,w1792893724422
+C111,Batería 1,−,Placa hoverboard,BAT −,Señal,Negro,24 AWG,,w1792893736372
+C112,Arduino Mega 2560,GND (señales motores),TB6600 #1,DIR−,GND señal,Negro,24 AWG,,w_sgnd_1_5
+C113,Arduino Mega 2560,GND (señales motores),TB6600 #1,ENA−,GND señal,Negro,24 AWG,,w_sgnd_1_7
+C114,Arduino Mega 2560,GND (señales motores),TB6600 #2,PUL−,GND señal,Negro,24 AWG,,w_sgnd_2_3
+C115,Arduino Mega 2560,GND (señales motores),TB6600 #2,DIR−,GND señal,Negro,24 AWG,,w_sgnd_2_5
+C116,Arduino Mega 2560,GND (señales motores),TB6600 #2,ENA−,GND señal,Negro,24 AWG,,w_sgnd_2_7
+C117,Arduino Mega 2560,GND (señales motores),TB6600 #3,PUL−,GND señal,Negro,24 AWG,,w_sgnd_3_3
+C118,Arduino Mega 2560,GND (señales motores),TB6600 #3,DIR−,GND señal,Negro,24 AWG,,w_sgnd_3_5
+C119,Arduino Mega 2560,GND (señales motores),TB6600 #3,ENA−,GND señal,Negro,24 AWG,,w_sgnd_3_7
+C120,Arduino Mega 2560,GND (señales motores),TB6600 #4,PUL−,GND señal,Negro,24 AWG,,w_sgnd_4_3
+C121,Arduino Mega 2560,GND (señales motores),TB6600 #4,DIR−,GND señal,Negro,24 AWG,,w_sgnd_4_5
+C122,Arduino Mega 2560,GND (señales motores),TB6600 #4,ENA−,GND señal,Negro,24 AWG,,w_sgnd_4_7
+C123,Arduino Mega 2560,GND (señales motores),TB6600 #5,PUL−,GND señal,Negro,24 AWG,,w_sgnd_5_3
+C124,Arduino Mega 2560,GND (señales motores),TB6600 #5,DIR−,GND señal,Negro,24 AWG,,w_sgnd_5_5
+C125,Arduino Mega 2560,GND (señales motores),TB6600 #5,ENA−,GND señal,Negro,24 AWG,,w_sgnd_5_7
+C126,Arduino Mega 2560,GND (señales motores),TB6600 #6,PUL−,GND señal,Negro,24 AWG,,w_sgnd_6_3
+C127,Arduino Mega 2560,GND (señales motores),TB6600 #6,DIR−,GND señal,Negro,24 AWG,,w_sgnd_6_5
+C128,Arduino Mega 2560,GND (señales motores),TB6600 #6,ENA−,GND señal,Negro,24 AWG,,w_sgnd_6_7
+C129,Arduino Mega 2560,GND (señales motores),TB6600 #7,PUL−,GND señal,Negro,24 AWG,,w_sgnd_7_3
+C130,Arduino Mega 2560,GND (señales motores),TB6600 #7,DIR−,GND señal,Negro,24 AWG,,w_sgnd_7_5
+C131,Arduino Mega 2560,GND (señales motores),TB6600 #7,ENA−,GND señal,Negro,24 AWG,,w_sgnd_7_7
+C132,Batería 2,+ (36 V),Placa hoverboard,BAT + (36 V),+36V,Rojo,12 AWG,,w_n_bat2_n_hbboard_p
+C133,Batería 2,−,Placa hoverboard,BAT −,−,Negro,12 AWG,,w_n_bat2_n_hbboard_n
+C134,Jetson Orin Nano,GND header (pin 6),Seta de emergencia,COM 1,Señal,Negro,24 AWG,,w1792894741834
+C135,Seta de emergencia,SALIDA 1 (NC),Jetson Orin Nano,GPIO E-STOP (pin 7),Señal,Amarillo,24 AWG,,w1792894749305
+C136,Arduino Mega 2560,GND,Seta de emergencia,COM 2,Señal,Negro,24 AWG,,w1792894759149
+C137,Seta de emergencia,SALIDA 2 (NC),Arduino Mega 2560,E-STOP (D18),Señal,Amarillo,24 AWG,,w1792894768317

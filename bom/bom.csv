@@ -1,0 +1,28 @@
+id,subsistema,descripcion,numero_parte,cantidad,proveedor,precio_unitario_clp,precio_total_clp,link,estado,notas
+1,Energía,Batería Li-ion 10S2P 36 V 4.4 Ah 158 Wh (BMS 20 A continuos / 30 A pico),,2,,,,,,Carga a 42 V
+2,Energía,Conversor DC-DC 42 V → 24 V 20 A (entrada 30–75 V),UENPO,1,,,,,,
+3,Energía,Conversor DC-DC 24 V → 12 V 20 A (entrada 6–40 V; 15 A continuos),Kuongshun,1,,,,,,
+4,Energía,Conversor DC-DC 24 V → 6.6 V 300 W (entrada 7–32 V; hasta 8 A),Kuongshun,1,,,,,,
+5,Seguridad,Seta de emergencia 2 contactos NC,,1,,,,,,
+6,Tracción,Placa hoverboard STM32 (firmware FOC EFeru),,1,,,,,,
+7,Tracción,Pulsador de encendido de la placa hoverboard,,1,,,,,,Botón original de la placa
+8,Tracción,Rueda con motor BLDC en buje 6.5" 36 V ~350 W,,2,,,,,,
+9,Control,NVIDIA Jetson Orin Nano Dev Kit,,1,,,,,,Entrada 9–20 V
+10,Control,Arduino Mega 2560,,1,,,,,,
+11,Control,Adaptador USB a TTL (puente 5 V / 3.3 V),CH340G,1,,,,,,
+12,Control,Hub USB 3.0 alimentado 7 puertos (entrada 12 V),,1,,,,,,
+13,Sensores,Cámara de profundidad Orbbec,Gemini Plus,1,,,,,,
+14,Sensores,LIDAR Slamtec,RPLIDAR C1,1,,,,,,
+15,Sensores,IMU Handsfree 9 ejes USB,HFI-B9,1,,,,,,
+16,Sensores,IMU MPU-9250 (módulo GY-9250),GY-9250,1,,,,,,
+17,Sensores,Cámara de visión IA Hiwonder (K210),WonderMV,1,,,,,,
+18,Interfaz,Monitor MUCAI 11.6" 60 Hz,N116A,1,,,,,,Modelo no definitivo
+19,Interfaz,Pantalla táctil Victron,GX Touch 50,1,,,,,,Modelo no definitivo
+20,Interfaz,Hub DisplayPort MST 1× DP → 2× HDMI,,1,,,,,,Modelo por elegir
+21,Actuadores,Driver paso a paso (9–42 V; 0.5–4.0 A),TB6600,7,,,,,,
+22,Actuadores,Motor NEMA 23 1.26 N·m 2.8 A/fase,23HS22-2804S1,3,StepperOnline,,,,,
+23,Actuadores,Motor NEMA 23 2.9 N·m 3.0 A/fase,57HS112-3004,1,,,,,,
+24,Actuadores,Motor NEMA 17 ~0.45 N·m ~1.5 A/fase,,3,,,,,,Confirmar corriente en la etiqueta
+25,Actuadores,Servo digital Power HD 20 kg·cm a 6.6 V,LF-20MG,1,,,,,,
+26,Perfilería,,,,,,,,,
+27,Tornillería,,,,,,,,,
