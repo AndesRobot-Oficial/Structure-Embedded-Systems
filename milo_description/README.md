@@ -15,7 +15,7 @@ Paquete ROS 2 con el modelo URDF/xacro de la base de MILO.
 | `laser_link` | LiDAR |
 | `camera_link` | Cámara |
 | `imu_link` | IMU |
-| `arm_mount_link` | Punto de montaje del brazo (ver `interfaz_brazo/`) |
+| `arm_mount_link` | Punto de montaje del brazo |
 
 ## Cómo pasar del CAD al URDF
 1. Exporta cada pieza móvil como malla (STL o DAE) **en metros** o ajusta `scale`, y guárdala en `meshes/`.

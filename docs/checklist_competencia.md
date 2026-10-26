@@ -1,13 +1,13 @@
 # Checklist de pre-competencia
 
 ## Seguridad
-- [ ] Parada de emergencia visible, accesible y probada: corta motores de la base y del brazo
+- [ ] Parada de emergencia visible, accesible y probada: corta los motores de la base
 - [ ] Fusibles correctos instalados
 - [ ] Sin cables sueltos ni conectores expuestos
 - [ ] Batería sin daños, cargada, con su bolsa o caja ignífuga para transporte
 
 ## Mecánica
-- [ ] Pernos apretados (ruedas, montaje del brazo, sensores)
+- [ ] Pernos apretados (ruedas, sensores)
 - [ ] Ruedas sin juego ni desgaste excesivo
 - [ ] Dimensiones y peso dentro del reglamento
 
