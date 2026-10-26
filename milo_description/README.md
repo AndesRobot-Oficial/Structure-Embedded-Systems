@@ -1,6 +1,6 @@
 # milo_description
 
-Paquete ROS 2 (`andesrobot_description`) con el modelo URDF/xacro de MILO, exportado del CAD de Fusion 360.
+URDF del robot con masas calculadas: paquete ROS 2 (`andesrobot_description`) con el modelo URDF/xacro de MILO, exportado del CAD de Fusion 360.
 
 - Modelo principal: [`urdf/andesrobot.urdf.xacro`](urdf/andesrobot.urdf.xacro)
 - Mallas del CAD: [`meshes/`](meshes/)
