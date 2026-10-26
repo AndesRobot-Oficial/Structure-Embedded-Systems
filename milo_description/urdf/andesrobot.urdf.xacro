@@ -687,7 +687,7 @@
 </joint>
 
 
-<!-- MASAS: estimadas en docs/calculos/masas.md del repo (rev. 0), no salen del CAD.
+<!-- MASAS: estimadas (rev. 0), no salen del CAD.
      Fusion exportó las piezas con un material por defecto, así que las masas del CAD se
      reemplazaron y la inercia de cada link se escaló en la misma proporción.
      base_link incluye chasis, placas, tornillería, electrónica central y cables (10.7 kg);

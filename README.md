@@ -1,14 +1,14 @@
 # MILO — Estructura y Sistemas Embebidos
 
 Repositorio del equipo de **base** de [AndesRobot](https://github.com/AndesRobot-Oficial) para el robot **MILO** (RoboCup@Home 2027).
-Contiene el modelo CAD, el sistema eléctrico de la base, el modelo URDF para ROS 2 y los cálculos de diseño.
+Contiene el modelo CAD, el sistema eléctrico de la base y el modelo URDF para ROS 2.
 
 ## Especificaciones
 
 | Parámetro | Valor |
 |---|---|
 | Dimensiones (L × A × H) | 50 × 50 × 175 cm (provisorio) |
-| Peso | ~31 kg, estimación preliminar (ver [masas](docs/calculos/masas.md)) |
+| Peso | ~31 kg, estimación preliminar |
 | Tipo de tracción | Diferencial, 2 motores BLDC de hoverboard 6,5" (control FOC) |
 | Velocidad máxima | 6 km/h |
 | Batería | 2× Li-ion 10S2P 36 V · 4,4 Ah · 158 Wh (316 Wh en total) |
@@ -44,7 +44,6 @@ Contiene el modelo CAD, el sistema eléctrico de la base, el modelo URDF para RO
 ├── milo_description/ # Paquete ROS 2 andesrobot_description (URDF/xacro + mallas)
 ├── bom/              # Lista de materiales
 └── docs/
-    ├── calculos/     # Masas, centro de masa y vuelco
     ├── decisiones.md # Registro de decisiones de diseño
     └── checklist_competencia.md
 ```
