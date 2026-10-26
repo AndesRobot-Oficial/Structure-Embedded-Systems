@@ -1,9 +1,7 @@
 # MILO — Estructura y Sistemas Embebidos
 
 Repositorio del equipo de **base** de [AndesRobot](https://github.com/AndesRobot-Oficial) para el robot **MILO** (RoboCup@Home 2027).
-Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF para ROS 2.
-
-<!-- Agregar foto o render de MILO aquí: ![MILO](docs/fotos/milo.jpg) -->
+Contiene el sistema eléctrico de la base, el modelo URDF para ROS 2 y los cálculos de diseño.
 
 ## Especificaciones
 
@@ -37,26 +35,15 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 
 ```
 .
-├── mecanica/
-│   ├── cad/          # Archivos fuente de Fusion 360
-│   ├── step/         # Exportaciones STEP (abren en cualquier CAD)
-│   ├── stl/          # Piezas para impresión 3D + parámetros de impresión
-│   ├── dxf/          # Piezas para corte láser / CNC
-│   └── planos/       # Planos de fabricación en PDF
 ├── electrica/
-│   ├── esquematicos/ # Esquemático fuente + PDF
-│   ├── cableado/     # Diagrama y tabla de cableado
-│   ├── pcb/          # Diseños de PCB y Gerbers
-│   ├── herramientas/ # Script que genera la tabla de cableado
+│   ├── esquematicos/ # Plano eléctrico (mapa de conexiones de ReWire)
+│   ├── cableado/     # Lista de cableado
 │   ├── presupuesto_potencia.csv
 │   └── revision_plano.md
 ├── milo_description/ # Paquete ROS 2 andesrobot_description (URDF/xacro + mallas)
 ├── bom/              # Lista de materiales
 └── docs/
-    ├── calculos/     # Torque, carga, centro de masa, FEA
-    ├── ensamblaje/   # Guía de ensamblaje
-    ├── datasheets/   # Hojas de datos o links
-    ├── fotos/
+    ├── calculos/     # Masas, centro de masa y vuelco
     ├── decisiones.md # Registro de decisiones de diseño
     └── checklist_competencia.md
 ```

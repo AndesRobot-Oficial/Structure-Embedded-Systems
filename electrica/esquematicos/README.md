@@ -2,9 +2,9 @@
 
 | Archivo | Descripción |
 |---|---|
-| [`milo_plano_electrico.json`](milo_plano_electrico.json) | Plano completo hecho en Mesa de Cableado (rev. 1.0): 37 componentes, 137 cables |
+| [`milo_plano_electrico.json`](milo_plano_electrico.json) | Plano completo, exportado del mapa de conexiones de ReWire (rev. 1.0): 37 componentes, 137 cables |
 
-La tabla de cableado ([`../cableado/tabla_cableado.csv`](../cableado/tabla_cableado.csv)) se genera desde este archivo con [`../herramientas/exportar_cableado.py`](../herramientas/exportar_cableado.py). La revisión del plano y los puntos pendientes están en [`../revision_plano.md`](../revision_plano.md).
+La lista de cableado está en [`../cableado/`](../cableado/README.md). La revisión del plano y los puntos pendientes están en [`../revision_plano.md`](../revision_plano.md).
 
 ## Árbol de potencia (rev. 1.0, tal como está en el plano)
 
