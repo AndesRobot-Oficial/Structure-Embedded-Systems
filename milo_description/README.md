@@ -5,7 +5,7 @@ Paquete ROS 2 (`andesrobot_description`) con el modelo URDF/xacro de MILO, expor
 - Modelo principal: [`urdf/andesrobot.urdf.xacro`](urdf/andesrobot.urdf.xacro)
 - Mallas del CAD: [`meshes/`](meshes/)
 - Frames, medidas y argumentos del xacro: [`docs/ROBOT.md`](docs/ROBOT.md)
-- Masas: estimadas, ver [`docs/calculos/masas.md`](../docs/calculos/masas.md)
+- Masas: estimadas (rev. 0), no salen del CAD; ver [`docs/ROBOT.md`](docs/ROBOT.md)
 
 El modelo incluye la base diferencial, la columna con el elevador, el RPLIDAR C1, la IMU y los links del brazo y la pinza.
 

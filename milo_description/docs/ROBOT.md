@@ -16,7 +16,7 @@ Convención REP-103/105: +X adelante, +Y izquierda, +Z arriba.
   `caster_wheel_radius` = 0.025 m es **provisorio: medir la rueda real**.
 
 ## Masa y estabilidad
-- Masas **estimadas** (rev. 0), detalle en `docs/calculos/masas.md` del repo. Total ~31,6 kg.
+- Masas **estimadas** (rev. 0). Total ~31,6 kg.
   Las masas del CAD no se usan: Fusion las exportó con material por defecto (1,06 g/cm³; acero en la muñeca).
 - `batteries_link` (2,2 kg) en lo más bajo del chasis y `drivers_link` (1,3 kg, 7× TB6600) sobre la base hacia atrás.
   Reemplazan al lastre ficticio de 12 kg.
