@@ -1,6 +1,6 @@
 # Modelo CAD
 
-Modelo 3D completo de MILO en **Autodesk Fusion 360**.
+Archivo CAD del robot: modelo 3D completo de MILO, hecho en **Autodesk Fusion 360**.
 
 | Archivo | Descripción |
 |---|---|

@@ -1,6 +1,6 @@
 # Lista de materiales (BOM)
 
-Todo lo que hay que comprar o fabricar para la base de MILO.
+Lista de componentes de MILO: todo lo que hay que comprar o fabricar.
 
 ## Componentes eléctricos
 

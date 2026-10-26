@@ -35,17 +35,10 @@ Contiene el modelo CAD, el sistema eléctrico de la base y el modelo URDF para R
 
 ```
 .
-├── cad/              # Modelo 3D completo (Fusion 360 + STEP)
-├── electrica/
-│   ├── esquematicos/ # Plano eléctrico (mapa de conexiones de ReWire)
-│   ├── cableado/     # Lista de cableado
-│   ├── presupuesto_potencia.csv
-│   └── revision_plano.md
-├── milo_description/ # Paquete ROS 2 andesrobot_description (URDF/xacro + mallas)
-├── bom/              # Lista de materiales
-└── docs/
-    ├── decisiones.md # Registro de decisiones de diseño
-    └── checklist_competencia.md
+├── bom/              # Lista de componentes
+├── cad/              # Archivo CAD del robot
+├── electrica/        # Diagrama de conexiones
+└── milo_description/ # URDF del robot con masas calculadas
 ```
 
 ## Uso rápido del URDF
