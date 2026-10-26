@@ -4,3 +4,9 @@
 *.xacro text eol=lf
 *.urdf text eol=lf
 *.py text eol=lf
+
+# CAD: sin conversión de saltos de línea
+*.step binary
+*.stp binary
+*.f3z binary
+*.stl binary
