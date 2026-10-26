@@ -4,8 +4,8 @@ Modelo 3D completo de MILO en **Autodesk Fusion 360**.
 
 | Archivo | Descripción |
 |---|---|
-| _por subir_ | Ensamblaje completo (`.f3z`, exportado desde Fusion con sus componentes) |
-| _por subir_ | Exportación STEP (`.step`), para abrir en cualquier CAD |
+| [`milo_ensamblaje.step`](milo_ensamblaje.step) | Ensamblaje completo en STEP (17 MB), exportado de Fusion 360 el 25-10-2026. Se abre en cualquier CAD |
+| _por subir_ | Archivo nativo de Fusion (`.f3z`) |
 
 ## Cómo exportar desde Fusion 360
 
