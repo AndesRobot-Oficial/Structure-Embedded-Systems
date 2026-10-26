@@ -10,7 +10,7 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 | Parámetro | Valor |
 |---|---|
 | Dimensiones (L × A × H) | 50 × 50 × 175 cm (provisorio) |
-| Peso | _por definir_ |
+| Peso | ~31 kg, estimación preliminar (ver [masas](docs/calculos/masas.md)) |
 | Tipo de tracción | Diferencial, 2 motores BLDC de hoverboard 6,5" (control FOC) |
 | Velocidad máxima | 6 km/h |
 | Batería | 2× Li-ion 10S2P 36 V · 4,4 Ah · 158 Wh (316 Wh en total) |
@@ -27,7 +27,7 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 |---|---|
 | Diseño 3D | ✅ Listo |
 | Plano eléctrico | 🟡 Rev. 2.0 lista, pendientes las medidas de seguridad ([revisión](electrica/revision_plano.md)) |
-| URDF | 🟡 Plantilla inicial (medidas provisorias) |
+| URDF | 🟡 Modelo del CAD con masas estimadas |
 | BOM | 🟡 Componentes eléctricos listos; falta perfilería y tornillería |
 | Fabricación | 🟡 Pendiente la carcasa exterior |
 
@@ -50,7 +50,7 @@ Contiene el diseño mecánico de la base, el sistema eléctrico y el modelo URDF
 │   ├── herramientas/ # Script que genera la tabla de cableado
 │   ├── presupuesto_potencia.csv
 │   └── revision_plano.md
-├── milo_description/ # Paquete ROS 2 con el URDF/xacro
+├── milo_description/ # Paquete ROS 2 andesrobot_description (URDF/xacro + mallas)
 ├── bom/              # Lista de materiales
 └── docs/
     ├── calculos/     # Torque, carga, centro de masa, FEA
@@ -69,9 +69,9 @@ Requiere ROS 2 Humble.
 cd ~/ros2_ws/src
 git clone https://github.com/AndesRobot-Oficial/Structure-Embedded-Systems_MILO.git
 cd ~/ros2_ws
-colcon build --packages-select milo_description
+colcon build --packages-select andesrobot_description
 source install/setup.bash
-ros2 launch milo_description display.launch.py
+ros2 launch andesrobot_description display.launch.py
 ```
 
 ## Contacto

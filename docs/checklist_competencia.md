@@ -17,5 +17,5 @@
 - [ ] Repuestos: fusibles, conectores, cables, batería de respaldo
 
 ## Software
-- [ ] `milo_description` carga sin errores en RViz
+- [ ] `andesrobot_description` carga sin errores en RViz
 - [ ] Frames de sensores coinciden con su posición real
